@@ -1,7 +1,8 @@
 # Smile App
 Smile App mimics a person's emotions, age, and gender from CAM, Video, and Picture and sends data to the MQTT broker. In the frontend, Smile is changing real-time.
 ##### App
-l
+<img src="./images/smile.jpg" width="400">
+
 ### Project Set Up and Installation 
   #### Requirements 
 ###  Hardware 
