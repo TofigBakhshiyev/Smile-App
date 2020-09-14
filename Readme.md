@@ -40,6 +40,7 @@ From the main directory:
 ### Start the Mosca Server
 ```
 cd webservice/server/node-server
+npm install
 node ./server.js
 ```
 You should see the following message, if successful:
@@ -47,6 +48,7 @@ You should see the following message, if successful:
 ### Start the Frontend
 ```
 cd webservice/frontend
+npm install
 npm start
 ```
 or
