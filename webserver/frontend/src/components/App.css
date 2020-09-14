@@ -1,0 +1,146 @@
+html,
+body,
+#root {
+    background-color: #f8f8f8 !important;
+    color: #333;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 0;
+    text-align: center;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    width: 100vw;
+}
+
+.label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 1.5rem 0;
+}
+
+.rating-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.rating-bar {
+    align-items: center;
+    background-color: rgba(119, 119, 119, 0.1);
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 2rem 0;
+    width: 17rem;
+}
+
+.rating-icon {
+    align-items: center;
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    justify-content: center;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+    height: 3rem;
+    width: 3rem;
+}
+
+.rotate {
+    transform: rotate(144deg);
+}
+
+.face {
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    padding: 20vh 0 20vh 0;
+}
+
+.eye {
+    background-color: #333;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.mouth {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1rem 0 1rem;
+    width: 10rem;
+}
+
+.shock {
+    background: #333;
+    clip-path: circle(50px at 50% 100%);
+    height: 3rem;
+    margin-top: 1rem;
+    transition: all 0.3s ease-in-out;
+    width: 5rem;
+}
+
+.sad {
+    border-color: #333 transparent transparent transparent;
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+    transition: border-width 0.3s ease-in-out;
+    width: 5rem;
+}
+
+.flat {
+    border-bottom: solid 15px #333;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
+    width: 3.5rem;
+}
+
+.smile {
+    border-color: transparent transparent #333 transparent;
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 100%;
+    height: 3rem;
+    margin-top: -0.5rem;
+    transition: border-width 0.3s ease-in-out;
+    width: 5rem;
+}
+
+.happy {
+    background: #333;
+    clip-path: circle(50px at 50% 0);
+    height: 3rem;
+    margin-top: 2rem;
+    transition: all 0.3s ease-in-out;
+    width: 5rem;
+}
+
+.shock-face {
+    background-image: linear-gradient(0deg, #ef6c00, #e65100);
+}
+
+.sad-face {
+    background-image: linear-gradient(0deg, #f57f17, #ef6c00);
+}
+
+.flat-face {
+    background-image: linear-gradient(0deg, #f9a825, #f57f17);
+}
+
+.smile-face {
+    background-image: linear-gradient(0deg, #fbc02d, #f9a825);
+}
+
+.happy-face {
+    background-image: linear-gradient(0deg, #fdd835, #fbc02d);
+}
