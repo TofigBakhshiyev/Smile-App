@@ -54,7 +54,7 @@ or
 ```
 npm run dev
 ```
-[open the link](http://localhost:3000)
+[open the link http://localhost:3000](http://localhost:3000)
 ### For Windows
 ###  Initialize OpenVINO Environment
 ``` 
